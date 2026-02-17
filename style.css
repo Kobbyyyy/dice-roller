@@ -1,1 +1,73 @@
 
+body {
+    font-family:Arial,sans-serif;
+    background-color: #FFE4B5; /* Light yellow background */
+    margin: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #006b3f;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px  #FCD116;
+}
+
+.instructions {
+    background-color: #FCD116;  
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+    color: #006B3F
+}
+
+.dice-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.dice-result {
+    width: 100px;
+    height: 100px;
+    font-size: 48px;
+    text-align: center;
+    border: 3px solid #CE1126;  
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    margin: 20px auto;
+    display: block;
+
+}
+
+button {
+    background-color: #006B3F; 
+    color: white;
+    font-size: 24px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #CE1126;  
+}
+
+.history {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 300px;
+    border: 2px solid #006B3F;
+}
+
+#message {
+    font-size: 18px;
+    color: #CE1126;
+    font-weight: bold;
+}

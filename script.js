@@ -19,4 +19,10 @@ function rollDice() {
 
     }
 }
+// For Enter Key To work
+document.getElementById('rollButton').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        rollDice();
+    }
+});
 

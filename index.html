@@ -2,15 +2,18 @@
 <html>
 <head>
 <title>Web Dice Roller</title>
-<link rel = "stylesheet" href ="styles.css">
+<link rel = "stylesheet" href ="style.css">
 </head>
 <body onload="rollDice()">
 
-    <h1>LUDO DICE</h1>
+    <h1>LUDO</h1>
 
     <div class="instructions">
         <h3> How to Play</h3>
-        <p> You need a 6 to move out of a camp! Roll the dice to start.</p>
+        <p> You need a 6 to move out of a camp! Roll the dice to start.
+            Rolling a 6 gives you another turn
+            First player to get all 4 pieces home wins!
+        </p>
     
 
     <p>Click the button to roll.</p>
@@ -26,10 +29,12 @@
 
 <div class="history">
     <h3> Last 3 Rolls:</h3>
-    <p id=""rollHistory"></p>
+    <p id="rollHistory"></p>
 </div>
 
 <script src="script.js"></script>
+
+
 
 </body>
 </html>
